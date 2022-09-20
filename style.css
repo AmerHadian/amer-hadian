@@ -1,0 +1,138 @@
+@font-face {
+    font-family: poppins;
+    src: url(Poppins-Regular.ttf);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: poppins;
+    background: #e1e5f2;
+}
+ul{
+    list-style-type: none;
+}
+.contanier{
+    max-width: 1850px;
+    margin: 0px auto;
+    transition: all 0.5s ease-in-out;
+    padding: 0px 30px;
+}
+.navbar{
+    background: #fff;
+    color: #0061ff;
+    height: 60px;
+}
+.navbar .logo{
+    font-size: x-large;
+    font-weight: bold;
+}
+.navbar a{
+    color: #0061ff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all 0.5s ease-in-out;
+    font-weight: bold;
+}
+.navbar a:hover{
+    color: #87aff0;
+    transition: all 0.4s ease-in-out;
+}
+.navbar .contanier{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    margin-left: 50px;
+}
+.header{
+    background: #90b8f8;
+    color: #fff;
+    min-height: 800px;
+}
+.header h1{
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+.header img{
+    height: 690px;
+    margin-top: 150px;
+}
+.header .contanier{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.boxes .contanier{
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    background: #0061ff;
+    color: #fff;
+    border-radius: 60px;
+    margin: 80px 20px;
+    padding: 10px 40px;
+    transition: all 0.4s ease-in-out;
+}
+.box:hover{
+    background: #fff;
+    color: #0061ff;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+@media (max-width: 768px){
+    .header .contanier{
+        flex-direction: column;
+        padding-top: 100px;
+        text-align: center;
+    }
+    .boxes .contanier{
+        display: block;
+        text-align: center;
+    }
+}
+.contect{
+    height: 60px;
+    background: #fff;
+}
+.contect svg{
+    margin-top: 19px;
+    color: #3b3c3f;
+    height: 25px;
+    width: 25px;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+.contect .contanier{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70%;
+}
+.twe{
+    transition: all 0.5s ease-in-out;
+}
+.twe:hover{
+    transition: all 0.4s ease-in-out;
+    color: #1da1f2;
+}
+.ins{
+    transition: all 0.5s ease-in-out;
+    color: #c13584;
+}
+.lin{
+    transition: all 0.5s ease-in-out;
+}
+.lin:hover{
+    transition: all 0.4s ease-in-out;
+    color: #0A66C2;
+}
